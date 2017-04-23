@@ -1,12 +1,9 @@
-// NOTE: I made this file on Codecademy Labs, hence the console.read function (which AFAIK is unique to that platform).
-// You can extract the anonymous function, as I will do later, to make a fully independent algorithm.
-
 // http://labs.codecademy.com/DcSn/4#:workspace
 
 var EOF = "|";
 var SEP = " ";
 
-console.read(function (text) {
+function (text) {
 	text = text.split(SEP);
 	
 	text.push(EOF);
@@ -73,5 +70,5 @@ console.read(function (text) {
 		}
 	}
 	
-	console.log("-----\n" + string.join(SEP));
+	return string.join(SEP);
 });
