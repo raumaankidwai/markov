@@ -3,7 +3,7 @@
 var EOF = "|";
 var SEP = " ";
 
-function (text) {
+function generate (text) {
 	text = text.split(SEP);
 	
 	text.push(EOF);
